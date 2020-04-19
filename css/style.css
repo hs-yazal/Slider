@@ -1,0 +1,44 @@
+
+
+.photo{
+position: relative;
+margin-bottom: 30px;
+ cursor: pointer;
+}
+
+.overlay{
+    
+    background-color: #fff;
+    position: absolute;
+     bottom: 20px ;   
+     left: 10%;
+     width: 80%;
+     border-radius: 4px;
+}
+
+#lightbox-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.6);
+
+}
+
+#lightbox-item{
+    position: relative;
+    width: 50%;
+    height: 75vh;
+    background-image: url(../images/1.jpg);
+    background-size: 100% 100%;
+}
+#close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#close , #next ,#prev {
+    cursor: pointer;
+}
